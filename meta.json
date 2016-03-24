@@ -1,0 +1,27 @@
+/*
+ * Metadata describing the module operation
+ */
+{
+    //Required. Inputs the module expects.
+    "inputs": [{
+        "id"    : "url",
+        "title" : "URL"
+    }, { 
+        "id"    : "parameters",
+        "title" : "Parameters",
+        "description" : "A javascript object of request parameters"
+    }, {
+        "id" : "headers", 
+        "title" : "Headers",
+        "description" : "A javascript object of headers to set"
+    }],
+    //Required. Outputs the module emits.
+    "outputs": [{
+        "id": "body",
+        "title": "Body"
+    }, {
+        "id" : "statusCode",
+        "title" : "Status Code"
+    }],
+    "title": "HTTP Get Request" /* Required.A display name for the module */
+}
