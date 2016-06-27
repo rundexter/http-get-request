@@ -1,6 +1,6 @@
 {
   "name": "http-get-request",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Issue an HTTP Get Request",
   "main": "index.js",
   "author": "Run Dexter, Inc",
